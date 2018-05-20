@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AlRashid.Youtube"
+             Icon="icon_youtube.png" Title="Youtube">
+    <ContentPage.Content>
+        <WebView Source="https://www.youtube.com/cahnnel/UC_IUDByD2y5vx8_QKi5MwYQ">
+        </WebView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+           xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="AlRashid.MasterPageDetail" 
+             
+             NavigationPage.HasBackButton="false"
+             Title="Shop List">
+
+
+
+    <StackLayout BackgroundColor="Silver">
+       
+        <Grid RowSpacing="1" BackgroundColor="#AB6D33">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <StackLayout Grid.Column="0" Grid.Row="0" Padding="5,10,5,0">
+                <SearchBar x:Name="searchstore" HeightRequest="30" TextChanged="txtSearch_TextChanged"  Placeholder="Search" PlaceholderColor="Silver"/>
+            </StackLayout>
+            <ScrollView Grid.Column="0" Grid.Row="1" HorizontalOptions="FillAndExpand" Orientation="Horizontal" Padding="0">
+                <StackLayout  BackgroundColor="Transparent" Spacing="0"  Orientation="Horizontal" VerticalOptions="Center" Padding="0,0,0,10" HorizontalOptions="CenterAndExpand">
+                    <Button ClassId="btnshop" Text="Shopping" TextColor="White"  FontSize="9" BorderColor="Transparent" BackgroundColor="Transparent" Clicked="Handle_Clicked" />
+                    <Button ClassId="btnDine" Text="Dining" TextColor="White" FontSize="9" BorderColor="White" BackgroundColor="Transparent"  Clicked="Handle_Clicked" />
+                    <Button ClassId="btnEntertain" Text="Entertainment" BorderColor="White" FontSize="9"  TextColor="White" BackgroundColor="Transparent"  Clicked="Handle_Clicked" />
+                    <Button ClassId="btnAll" Text="All" TextColor="White" BorderColor="White"  FontSize="9" Clicked="Handle_Clicked" BackgroundColor="Transparent"  />
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+        <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
+
+            <StackLayout Padding="0,10,0,0" Margin="0,0,0,0">
+
+                <ListView x:Name="lststorelist" SeparatorColor="Transparent" BackgroundColor="Silver" ItemSelected="lststorelist_ItemSelected" HasUnevenRows="true" IsPullToRefreshEnabled="true" Refreshing="lststorelist_Refreshing">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Orientation="Horizontal" Padding="5,0,0,0" VerticalOptions="Fill" BackgroundColor="#AB6D33" Margin="10,5,10,5">
+                                    <StackLayout Orientation="Horizontal" Padding="0,5,5,5" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="White" Margin="0">
+                                        <Image Source="{Binding LogoImageUrl}" HeightRequest="60" WidthRequest="60" />
+                                        <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="Start" Margin="30,0,0,0" Padding="0,5,0,10">
+                                            <Label Text="{Binding Name}" TextColor="#ab6d33" FontSize="16" FontAttributes="Bold" />
+                                            <Label Text="{Binding Description}" TextColor="Gray" FontSize="9" />
+                                        </StackLayout>
+                                    </StackLayout>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+            </StackLayout>
+
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

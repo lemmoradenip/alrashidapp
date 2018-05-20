@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AlRashid.AboutPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Silver" Spacing="0">
+            <StackLayout Orientation="Horizontal" Padding="5,0,0,0" VerticalOptions="Fill" BackgroundColor="White" Margin="10,5,10,5">
+                <StackLayout Orientation="Horizontal" Padding="0,5,5,5" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="White" Margin="0">
+                    <!--<Image Source="http://www.artar.com.sa/administration/upl/small/ci_img_15.jpg" HeightRequest="60" WidthRequest="60" />-->
+                    <StackLayout HorizontalOptions="StartAndExpand" VerticalOptions="Start" Margin="30,0,0,0" Padding="0,5,0,10">
+                        <Label Text="Binding Name" TextColor="#ab6d33" FontSize="16" FontAttributes="Bold" />
+                        <Label Text="[Binding Description]" TextColor="Gray" FontSize="9" />
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" Padding="10,10,10,15" BackgroundColor="White" Spacing="8" Margin="10,0,10,0">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand">
+                    <Image Source="ico_mobile.png" HeightRequest="15" Margin="0,0,5,0" />
+                    <Label Text="Binding Mobile" FontSize="12" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="ico_telephone.png" HeightRequest="15" Margin="0,0,5,0" />
+                    <Label Text="Bindfing Telephone" FontSize="12" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="ico_mail.png" HeightRequest="15" Margin="0,0,5,0" />
+                    <Label Text="Binding Email" FontSize="12" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="ico_www.png" HeightRequest="15" Margin="0,0,5,0" />
+                    <Label Text="Binding Website" FontSize="12" />
+                </StackLayout>
+            </StackLayout>
+            <StackLayout>
+                <Frame OutlineColor="White" HorizontalOptions="Fill" CornerRadius="0" Margin="10,10,10,10" HasShadow="false" VerticalOptions="Center">
+                    <Frame.Content>
+                        <Label Text="[Map location here]" TextColor="Gray" VerticalTextAlignment="Center" />
+                    </Frame.Content>
+                </Frame>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

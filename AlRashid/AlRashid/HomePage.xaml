@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AlRashid.HomePage">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="150"  />
+                <RowDefinition Height="70" />
+                <RowDefinition Height="70" />
+                <RowDefinition Height="70" />
+                <RowDefinition Height="70" />
+            </Grid.RowDefinitions>
+            <Image  Grid.Row="0" Grid.Column="0" Source="pattern4.png" />
+            <Image  Grid.Row="1" Grid.Column="0" Source="pattern4.png" />
+            <Image  Grid.Row="2" Grid.Column="0" Source="pattern4.png" />
+            <Image  Grid.Row="3" Grid.Column="0" Source="pattern4.png" />
+            <Grid>
+                <Grid.ColumnDefinitions>
+                     <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Image  Grid.Row="0" Grid.Column="0" Source="pattern4.png" />
+                <Image  Grid.Row="0" Grid.Column="1" Source="pattern4.png" />
+                <Image  Grid.Row="0" Grid.Column="2" Source="pattern4.png" />
+                <Image  Grid.Row="0" Grid.Column="4" Source="pattern4.png" />
+            </Grid>
+        </Grid>
+        
+    </ContentPage.Content>
+</ContentPage>

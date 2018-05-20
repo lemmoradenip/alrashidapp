@@ -1,0 +1,15 @@
+D:\App\AlRashidMallapp\AlRashid\AlRashid\AlRashid.iOS\obj\iPhone\AppStore\ibtool\_BundleResourceWithLogicalName.items
+D:\App\AlRashidMallapp\AlRashid\AlRashid\AlRashid.iOS\obj\iPhone\AppStore\actool\_PartialAppManifest.items
+D:\App\AlRashidMallapp\AlRashid\AlRashid\AlRashid.iOS\obj\iPhone\AppStore\actool\_BundleResourceWithLogicalName.items
+D:\App\AlRashidMallapp\AlRashid\AlRashid\AlRashid.iOS\obj\iPhone\AppStore\coremlc\_PartialAppManifest.items
+D:\App\AlRashidMallapp\AlRashid\AlRashid\AlRashid.iOS\obj\iPhone\AppStore\coremlc\_BundleResourceWithLogicalName.items
+D:\App\AlRashidMallapp\AlRashid\AlRashid\AlRashid.iOS\obj\iPhone\AppStore\optimized\
+D:\App\AlRashidMallapp\AlRashid\AlRashid\AlRashid.iOS\obj\iPhone\AppStore\AlRashid.iOS.csproj.CoreCompileInputs.cache
+D:\App\AlRashidMallapp\AlRashid\AlRashid\AlRashid.iOS\obj\iPhone\AppStore\AlRashid.iOS.App.xaml.g.cs
+D:\App\AlRashidMallapp\AlRashid\AlRashid\AlRashid.iOS\obj\iPhone\AppStore\AlRashid.iOS.MainPage.xaml.g.cs
+D:\App\AlRashidMallapp\AlRashid\AlRashid\AlRashid.iOS\obj\iPhone\AppStore\AlRashid.iOS.WelcomePage.xaml.g.cs
+D:\App\AlRashidMallapp\AlRashid\AlRashid\AlRashid.iOS\obj\iPhone\AppStore\AlRashid.iOS.MallListing.xaml.g.cs
+D:\App\AlRashidMallapp\AlRashid\AlRashid\AlRashid.iOS\obj\iPhone\AppStore\AlRashid.iOS.MasterItemPage.xaml.g.cs
+D:\App\AlRashidMallapp\AlRashid\AlRashid\AlRashid.iOS\obj\iPhone\AppStore\AlRashid.iOS.MasterPage.xaml.g.cs
+D:\App\AlRashidMallapp\AlRashid\AlRashid\AlRashid.iOS\obj\iPhone\AppStore\AlRashid.iOS.MasterPageMaster.xaml.g.cs
+D:\App\AlRashidMallapp\AlRashid\AlRashid\AlRashid.iOS\obj\iPhone\AppStore\AlRashid.iOS.MasterPageDetail.xaml.g.cs

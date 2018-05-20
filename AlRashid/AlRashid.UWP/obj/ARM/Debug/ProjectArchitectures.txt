@@ -1,0 +1,1 @@
+D:\AlRashid\AlRashid\AlRashid.UWP\AlRashid.UWP.csproj;arm
