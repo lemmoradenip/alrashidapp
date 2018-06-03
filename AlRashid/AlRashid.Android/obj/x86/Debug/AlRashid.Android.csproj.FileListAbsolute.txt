@@ -1,7 +1,13 @@
+D:\AlRashid\AlRashid\AlRashid.Android\obj\x86\Debug\res\layout\tabbar.xml
 D:\AlRashid\AlRashid\AlRashid.Android\bin\x86\Debug\AlRashid.Android.dll
 D:\AlRashid\AlRashid\AlRashid.Android\bin\x86\Debug\AlRashid.Android.pdb
 D:\AlRashid\AlRashid\AlRashid.Android\bin\x86\Debug\com.AlRashid.beta.apk
 D:\AlRashid\AlRashid\AlRashid.Android\bin\x86\Debug\com.AlRashid.beta-Signed.apk
+D:\AlRashid\AlRashid\AlRashid.Android\obj\x86\Debug\AlRashid.Android.csprojResolveAssemblyReference.cache
+D:\AlRashid\AlRashid\AlRashid.Android\obj\x86\Debug\XbdMerge\Xamarin.GooglePlayServices.Basement.dll
+D:\AlRashid\AlRashid\AlRashid.Android\obj\x86\Debug\XbdMerge\Xamarin.GooglePlayServices.Tasks.dll
+D:\AlRashid\AlRashid\AlRashid.Android\obj\x86\Debug\XbdMerge\Xamarin.GooglePlayServices.Base.dll
+D:\AlRashid\AlRashid\AlRashid.Android\obj\x86\Debug\XbdMerge\Xamarin.GooglePlayServices.Maps.dll
 D:\AlRashid\AlRashid\AlRashid.Android\obj\x86\Debug\AlRashid.Android.csproj.CoreCompileInputs.cache
 D:\AlRashid\AlRashid\AlRashid.Android\obj\x86\Debug\AlRashid.Android.dll
 D:\AlRashid\AlRashid\AlRashid.Android\obj\x86\Debug\AlRashid.Android.pdb
@@ -50,7 +56,6 @@ D:\AlRashid\AlRashid\AlRashid.Android\obj\x86\Debug\res\drawable\icon_hamburger2
 D:\AlRashid\AlRashid\AlRashid.Android\obj\x86\Debug\res\drawable\rmm_c.png
 D:\AlRashid\AlRashid\AlRashid.Android\obj\x86\Debug\res\drawable-xxhdpi\rmm_c.png
 D:\AlRashid\AlRashid\AlRashid.Android\obj\x86\Debug\res\drawable\icon_search.png
-D:\AlRashid\AlRashid\AlRashid.Android\obj\x86\Debug\res\layout\tabbar.xml
 D:\AlRashid\AlRashid\AlRashid.Android\obj\x86\Debug\res\layout\toolbar.xml
 D:\AlRashid\AlRashid\AlRashid.Android\obj\x86\Debug\res\values\styles.xml
 D:\AlRashid\AlRashid\AlRashid.Android\obj\x86\Debug\res\drawable\ico_mail.png
