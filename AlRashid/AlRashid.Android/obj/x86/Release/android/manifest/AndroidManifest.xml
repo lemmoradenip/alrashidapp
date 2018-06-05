@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionName="1.1" package="com.AlRashid.beta" android:installLocation="auto" android:versionCode="2">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionName="1.0" package="com.AlRashid.beta" android:installLocation="auto" android:versionCode="1">
   <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="27" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-  <application android:label="AlRashid" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/icon">
+  <application android:label="AlRashid" android:name="android.support.multidex.MultiDexApplication" android:allowBackup="true" android:icon="@drawable/icon">
     <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="AlRashid" android:theme="@style/MainTheme" android:name="md57aabe6b5828ef15581cd55d7dd1f746e.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
