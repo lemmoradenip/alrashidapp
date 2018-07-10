@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"    NavigationPage.HasNavigationBar="false" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AlRashid.HomePage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"   
+             NavigationPage.HasNavigationBar="false" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AlRashid.HomePage">
     <ContentPage.Content>
         <Grid RowSpacing="3">
             <Grid.ColumnDefinitions>
@@ -28,7 +30,7 @@
             <Grid HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="0">
                 <Grid.GestureRecognizers>
                     <TapGestureRecognizer Tapped="EventTapped" NumberOfTapsRequired="1" />
-                </Grid.GestureRecognizers>
+                </Grid.GestureRecognizers>DS
                 <Image Source="arm2.png" Aspect="AspectFill" Opacity=".9" />
                 <BoxView BackgroundColor="Black" Opacity=".5" HorizontalOptions="Fill" VerticalOptions="Fill" />
                 <BoxView BackgroundColor="#AB6D55" Opacity=".2" HorizontalOptions="Fill" VerticalOptions="Fill" />

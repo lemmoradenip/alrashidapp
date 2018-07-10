@@ -2,7 +2,6 @@ D:\AlRashid\AlRashid\AlRashid.Android\bin\x86\Release\AlRashid.Android.dll
 D:\AlRashid\AlRashid\AlRashid.Android\bin\x86\Release\AlRashid.Android.pdb
 D:\AlRashid\AlRashid\AlRashid.Android\bin\x86\Release\com.AlRashid.beta.apk
 D:\AlRashid\AlRashid\AlRashid.Android\bin\x86\Release\com.AlRashid.beta-Signed.apk
-D:\AlRashid\AlRashid\AlRashid.Android\obj\x86\Release\AlRashid.Android.csprojResolveAssemblyReference.cache
 D:\AlRashid\AlRashid\AlRashid.Android\obj\x86\Release\XbdMerge\Xamarin.GooglePlayServices.Basement.dll
 D:\AlRashid\AlRashid\AlRashid.Android\obj\x86\Release\XbdMerge\Xamarin.GooglePlayServices.Tasks.dll
 D:\AlRashid\AlRashid\AlRashid.Android\obj\x86\Release\XbdMerge\Xamarin.GooglePlayServices.Base.dll
@@ -77,6 +76,7 @@ D:\AlRashid\AlRashid\AlRashid.Android\obj\x86\Release\res\drawable\logodown.png
 D:\AlRashid\AlRashid\AlRashid.Android\obj\x86\Release\res\drawable\logotop.png
 D:\AlRashid\AlRashid\AlRashid.Android\obj\x86\Release\res\drawable\pattern4.png
 D:\AlRashid\AlRashid\AlRashid.Android\obj\x86\Release\res\drawable\pattern5.png
+D:\AlRashid\AlRashid\AlRashid.Android\obj\x86\Release\res\drawable\rmm_sm.png
 D:\AlRashid\AlRashid\AlRashid.Android\obj\x86\Release\R.cs.flag
 D:\AlRashid\AlRashid\AlRashid.Android\obj\x86\Release\uploadflags.txt
 D:\AlRashid\AlRashid\AlRashid.Android\bin\x86\Release\Mono.Android.pdb

@@ -3360,13 +3360,13 @@ containing a value of this type.
         public static int arm6=0x7f020058;
         public static int arm7=0x7f020059;
         public static int avd_hide_password=0x7f02005a;
-        public static int avd_hide_password_1=0x7f02016b;
-        public static int avd_hide_password_2=0x7f02016c;
-        public static int avd_hide_password_3=0x7f02016d;
+        public static int avd_hide_password_1=0x7f02016c;
+        public static int avd_hide_password_2=0x7f02016d;
+        public static int avd_hide_password_3=0x7f02016e;
         public static int avd_show_password=0x7f02005b;
-        public static int avd_show_password_1=0x7f02016e;
-        public static int avd_show_password_2=0x7f02016f;
-        public static int avd_show_password_3=0x7f020170;
+        public static int avd_show_password_1=0x7f02016f;
+        public static int avd_show_password_2=0x7f020170;
+        public static int avd_show_password_3=0x7f020171;
         public static int common_full_open_on_phone=0x7f02005c;
         public static int common_google_signin_btn_icon_dark=0x7f02005d;
         public static int common_google_signin_btn_icon_dark_focused=0x7f02005e;
@@ -3625,8 +3625,8 @@ containing a value of this type.
         public static int notification_bg_normal=0x7f02015b;
         public static int notification_bg_normal_pressed=0x7f02015c;
         public static int notification_icon_background=0x7f02015d;
-        public static int notification_template_icon_bg=0x7f020169;
-        public static int notification_template_icon_low_bg=0x7f02016a;
+        public static int notification_template_icon_bg=0x7f02016a;
+        public static int notification_template_icon_low_bg=0x7f02016b;
         public static int notification_tile_bg=0x7f02015e;
         public static int notify_panel_notification_icon_bg=0x7f02015f;
         public static int pattern4=0x7f020160;
@@ -3635,9 +3635,10 @@ containing a value of this type.
         public static int rmm_aw=0x7f020163;
         public static int rmm_c=0x7f020164;
         public static int rmm_jw=0x7f020165;
-        public static int rmm_w=0x7f020166;
-        public static int tooltip_frame_dark=0x7f020167;
-        public static int tooltip_frame_light=0x7f020168;
+        public static int rmm_sm=0x7f020166;
+        public static int rmm_w=0x7f020167;
+        public static int tooltip_frame_dark=0x7f020168;
+        public static int tooltip_frame_light=0x7f020169;
     }
     public static final class id {
         public static int ALT=0x7f0b003d;
@@ -4230,6 +4231,9 @@ containing a value of this type.
         public static int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0c0045;
         public static int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0c0046;
         public static int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0c0047;
+        /** Create new style that references this new image
+         */
+        public static int Splashscreen=0x7f0c0192;
         public static int TextAppearance_AppCompat=0x7f0c00d6;
         public static int TextAppearance_AppCompat_Body1=0x7f0c00d7;
         public static int TextAppearance_AppCompat_Body2=0x7f0c00d8;

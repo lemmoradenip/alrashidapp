@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xf:BottomBarPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xf="clr-namespace:BottomBar.XamarinForms;assembly=BottomBar.XamarinForms"
+             xmlns:local="clr-namespace:AlRashid"
+             NavigationPage.HasNavigationBar="false" 
+             NavigationPage.HasBackButton="False"
+             BackgroundColor="#AB6D33"
+             x:Class="AlRashid.BottomNavigation">
+
+    <local:EventDeals  Title="HOME"  Icon="ic_main.png"   xf:BottomBarPageExtensions.TabColor="#AB6D33"/>
+    <local:MasterPage Title="SHOP" Icon="ic_cart.png"    xf:BottomBarPageExtensions.TabColor="#AB6D33" />
+    <local:Facebook Title="EVENTS" Icon="ic_restaurant.png"    xf:BottomBarPageExtensions.TabColor="#AB6D33"/>
+    <local:ShopInfo Title="MAP" Icon="ic_nearby.png"    xf:BottomBarPageExtensions.TabColor="#AB6D33"/>
+    <local:AboutPage Title="ABOUT" Icon="ic_mores.png"    xf:BottomBarPageExtensions.TabColor="#AB6D33"/>
+
+</xf:BottomBarPage>

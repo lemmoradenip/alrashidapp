@@ -1,7 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AlRashid.Facebook"  Icon="icon_facebook.png" Title="Facebook">
+             x:Class="AlRashid.Facebook"  Icon="icon_facebook.png"
+               NavigationPage.HasNavigationBar="False"
+             NavigationPage.HasBackButton="False"
+             Title="Facebook">
     <ContentPage.Content>
         <WebView Source="https://m.facebook.com/Saudi-Bonyan-1944027668960312">
             

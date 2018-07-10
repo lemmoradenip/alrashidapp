@@ -192,7 +192,6 @@ D:\AlRashid\AlRashid\AlRashid.Android\obj\Release\res\drawable\pattern4.png
 D:\AlRashid\AlRashid\AlRashid.Android\obj\Release\res\drawable\pattern5.png
 D:\AlRashid\AlRashid\AlRashid.Android\obj\Release\R.cs.flag
 D:\AlRashid\AlRashid\AlRashid.Android\obj\Release\uploadflags.txt
-D:\AlRashid\AlRashid\AlRashid.Android\bin\Release\AlRashid.Android.dll
 D:\AlRashid\AlRashid\AlRashid.Android\bin\Release\Mono.Android.pdb
 D:\AlRashid\AlRashid\AlRashid.Android\bin\Release\Mono.Data.Sqlite.pdb
 D:\AlRashid\AlRashid\AlRashid.Android\bin\Release\mscorlib.pdb
@@ -243,6 +242,10 @@ D:\AlRashid\AlRashid\AlRashid.Android\obj\Release\linksrc\System.ServiceModel.pd
 D:\AlRashid\AlRashid\AlRashid.Android\obj\Release\linksrc\System.IdentityModel.pdb
 D:\AlRashid\AlRashid\AlRashid.Android\bin\Release\FormsViewGroup.dll.mdb
 D:\AlRashid\AlRashid\AlRashid.Android\bin\Release\Xamarin.Forms.Platform.Android.dll.mdb
-D:\AlRashid\AlRashid\AlRashid.Android\obj\Release\linksrc\AlRashid.Android.dll.mdb
 D:\AlRashid\AlRashid\AlRashid.Android\obj\Release\linksrc\FormsViewGroup.dll.mdb
 D:\AlRashid\AlRashid\AlRashid.Android\obj\Release\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
+D:\AlRashid\AlRashid\AlRashid.Android\obj\Release\android\assets\FormsViewGroup.dll.mdb
+D:\AlRashid\AlRashid\AlRashid.Android\obj\Release\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+D:\AlRashid\AlRashid\AlRashid.Android\obj\Release\android\assets\Xamarin.Forms.Core.pdb
+D:\AlRashid\AlRashid\AlRashid.Android\obj\Release\android\assets\Xamarin.Forms.Xaml.pdb
+D:\AlRashid\AlRashid\AlRashid.Android\obj\Release\res\drawable\rmm_sm.png

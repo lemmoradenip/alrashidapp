@@ -8,13 +8,23 @@ using Xamarin.Forms;
 namespace AlRashid
 {
     //[assembly:XamlCompilation(XamlCompilationOptions.Compile)]
+  
     public partial class App : Application
     {
+        public static string DB_PATH = string.Empty;
         public App()
         {
             InitializeComponent();
             MainPage = new NavigationPage(new WelcomePage());
+            
         }
+        public App(string DB_Path)
+        {
+            InitializeComponent();
+            DB_PATH = DB_Path;
+            MainPage = new NavigationPage(new WelcomePage());
+        }
+        
 
         protected override void OnStart()
         {

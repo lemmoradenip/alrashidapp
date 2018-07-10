@@ -1,9 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+   
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:AlRashid;assembly=AlRashid" 
-             NavigationPage.HasNavigationBar="True"  
-            NavigationPage.BackButtonTitle="Back"
+             NavigationPage.HasNavigationBar="False"  
+            NavigationPage.HasBackButton="False"          
+           BarBackgroundColor="#AB6D33"
+           BarTextColor="White"
+            BackgroundColor="LightGray"     
              x:Class="AlRashid.SocialMediaPage">
+   
 
 </TabbedPage>

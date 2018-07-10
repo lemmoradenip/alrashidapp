@@ -13,6 +13,7 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "AlRashid", "AlRashid\AlRash
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		AlRashid\AlRashid\AlRashid.projitems*{59254d57-d10f-4675-ada4-4f9c66e9504c}*SharedItemsImports = 4
 		AlRashid\AlRashid\AlRashid.projitems*{920fc76c-cfc0-41ce-8b23-30fcaace265a}*SharedItemsImports = 13
 		AlRashid\AlRashid\AlRashid.projitems*{993752f7-a4d8-4654-943f-18bb41981600}*SharedItemsImports = 4
 		AlRashid\AlRashid\AlRashid.projitems*{fb31cb10-9b43-457d-af50-b1c00b27c703}*SharedItemsImports = 4

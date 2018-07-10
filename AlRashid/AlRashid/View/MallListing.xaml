@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-             x:Class="AlRashid.MallListing" NavigationPage.HasNavigationBar="false" 
-             NavigationPage.HasBackButton="false">
+             x:Class="AlRashid.MallListing" 
+             NavigationPage.HasNavigationBar="false"
+             NavigationPage.HasBackButton="false"
+             BackgroundColor="White"
+             >
     <ContentPage.Content>
-       
         <Grid BackgroundColor="White" RowSpacing="15"  Padding="40">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"  />
@@ -12,25 +14,26 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="250"   />
                 <RowDefinition Height="*" />
-
             </Grid.RowDefinitions>
-
-            <Image Source="RMM_C.png" Aspect="AspectFit" HeightRequest="100" WidthRequest="100"   Grid.Column="0"  Grid.Row="0"  />
-        
-
+            <Image Source="RMM_C.png" Aspect="AspectFit" HeightRequest="100" 
+                   WidthRequest="100"   Grid.Column="0"  Grid.Row="0"  />
             <ListView x:Name="lstMallList" WidthRequest="300"    
                        Grid.Column="0" Grid.Row="1"
                       AbsoluteLayout.LayoutFlags="WidthProportional,HeightProportional"  
                       AbsoluteLayout.LayoutBounds="2,250,1,2" 
-                      SeparatorColor="Transparent"  
-                      BackgroundColor="Transparent"
-                      ItemSelected="lstMallList_ItemSelected" 
-                      HasUnevenRows="false" 
-                      IsPullToRefreshEnabled="true" Refreshing="lstMallList_Refreshing">
+                    
+                      BackgroundColor="White"
+                      ItemSelected="lstMallList_ItemSelected"                      
+                      HasUnevenRows="false"                       
+                      IsPullToRefreshEnabled="true"
+                      Refreshing="lstMallList_Refreshing">
+                      
                 <ListView.ItemTemplate >
                     <DataTemplate>
-                        <ViewCell  >
-                            <StackLayout Spacing="10" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" >
+                        <ViewCell   >
+                            <StackLayout  BackgroundColor="White" 
+                                          VerticalOptions="CenterAndExpand"
+                                          HorizontalOptions="CenterAndExpand" >
                                 <Label Text="{Binding Title}" BackgroundColor="White" TextColor="#AB6D55" FontSize="12"   />
                             </StackLayout>
                         </ViewCell>

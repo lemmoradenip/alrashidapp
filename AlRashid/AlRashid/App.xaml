@@ -11,6 +11,7 @@
                 <Setter Property="BarBackgroundColor" Value="#AB6D33"/>
                 <Setter Property="BarTextColor" Value="White"/>
             </Style>
+            
             <!-- Styles -->
 
         </ResourceDictionary>

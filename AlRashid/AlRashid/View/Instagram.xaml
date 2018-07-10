@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AlRashid.Instagram"  Icon="icon_instagram.png" Title="Instagram">
+             x:Class="AlRashid.Instagram"  Icon="icon_instagram.png"   NavigationPage.HasNavigationBar="False"
+             NavigationPage.HasBackButton="False" Title="Instagram">
     <ContentPage.Content>
         <WebView Source="https://www.Instagram.com/saudibonyan/">
 

@@ -42,6 +42,7 @@ namespace AlRashid
             base.OnAppearing();*/
         //    var content = await _httpclient.GetStringAsync(Url);
             lstMallList.ItemsSource = GetMallList();
+           
             base.OnAppearing();
         }
 
@@ -53,9 +54,15 @@ namespace AlRashid
 
         async void lstMallList_ItemSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
         {
+
+
             //** put here the line for SQLite data **`
             //await Navigation.PushAsync(new NavigationPage(new WelcomePage()));
-            await Navigation.PushModalAsync(new NavigationPage(new HomePage()));
+
+            //var entity = ((Label)sender);
+            //entity.BackgroundColor = Color.AliceBlue;
+            await Navigation.PushModalAsync(new NavigationPage(new BottomNavigation()));
+
         }
 
         //** this line will be moved to ViewModel with SQL

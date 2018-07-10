@@ -31,9 +31,15 @@ namespace AlRashid
                 this.Children[2].Title = "Facebook";
                 this.Children.Add(new NavigationPage(new Youtube()));
                 this.Children[3].Title = "Youtube";
-               
-                
-            }
+                this.Children.Add(new NavigationPage(new TwitterPage()));
+                this.Children[4].Title = "SnapShot";
+                this.Children.Add(new NavigationPage(new Instagram()));
+                this.Children[5].Title = "PInterest";
+                this.Children.Add(new NavigationPage(new Facebook()));
+                this.Children[6].Title = "LinkedIN";
+                this.Children.Add(new NavigationPage(new Youtube()));
+                this.Children[7].Title = "Google+";
+                            }
             catch (NullReferenceException ex)
             {
                 await DisplayAlert("Error", ex.Message.ToString(), "Close");

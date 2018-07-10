@@ -3,10 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AlRashid.WelcomePage"
              NavigationPage.HasNavigationBar="false" 
-             NavigationPage.HasBackButton="false"
-
-            
-             >
+             NavigationPage.HasBackButton="false">
     <ContentPage.Content>
         <!--<StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="Fill">
             <StackLayout Orientation="Vertical" HorizontalOptions="Center" Spacing="50" VerticalOptions="StartAndExpand">
@@ -55,44 +52,45 @@
             </Grid.RowDefinitions>
 
             <StackLayout Grid.Row="1" Grid.Column="1" Orientation="Vertical" HorizontalOptions="Center" Spacing="50" VerticalOptions="StartAndExpand">
-                <Image Source="RMM.png" VerticalOptions="CenterAndExpand" Aspect="AspectFit"  />
+                <Image Source="RMM.png" VerticalOptions="CenterAndExpand" HeightRequest="150" Aspect="AspectFit"  />
             </StackLayout>
             <StackLayout Grid.Row="2" Grid.Column="1" Orientation="Vertical" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Spacing="10" Padding="0,20,0,0">
                 <Label Text="اختر لغة التطبيق" HorizontalTextAlignment="Center" TextColor="White" FontSize="Small" />
-                <Label Text="Select Application language" TextColor="White" FontSize="Small" />
+                <Label Text="Select Application Language" TextColor="White" FontSize="Small" />
             </StackLayout>
             <StackLayout Grid.Row="3" Grid.Column="1" Orientation="Horizontal" Spacing="70" Padding="0,40,0,10" HorizontalOptions="Center" VerticalOptions="Center">
+               
                 <Button Text="English" TextColor="White" BackgroundColor="Transparent" BorderColor="Transparent" Clicked="BtnEng_Clicked" />
                 <Button Text="العربية" TextColor="White" BackgroundColor="Transparent"  BorderColor="Transparent" Clicked="BtnAra_Clicked" />
             </StackLayout>
-            <StackLayout Grid.Row="4" Grid.Column="1" Padding="10"   Orientation="Horizontal" HorizontalOptions="Center"  Opacity=".5" VerticalOptions="Center" Spacing="20">
+            <StackLayout Grid.Row="4" Grid.Column="1"    Orientation="Horizontal" HorizontalOptions="Center"  Opacity=".5" VerticalOptions="Center" Spacing="20">
 
                 <StackLayout>
                     <StackLayout.GestureRecognizers>
                         <TapGestureRecognizer Tapped="Instagram_Tapped" NumberOfTapsRequired="1" />
                     </StackLayout.GestureRecognizers>
-                    <Image Source="icon_instagram.png" VerticalOptions="Center" HeightRequest="50" />
+                    <Image Source="icon_instagram.png" VerticalOptions="Center" HeightRequest="30" />
                 </StackLayout>
                 <StackLayout>
                     <StackLayout.GestureRecognizers>
                         <TapGestureRecognizer Tapped="Facebook_Tapped" NumberOfTapsRequired="1" />
                     </StackLayout.GestureRecognizers>
-                    <Image Source="icon_fb.png" VerticalOptions="Center" HeightRequest="50" />
+                    <Image Source="icon_fb.png" VerticalOptions="Center" HeightRequest="30" />
                 </StackLayout>
                 <StackLayout>
                     <StackLayout.GestureRecognizers>
                         <TapGestureRecognizer Tapped="Youtube_Tapped" NumberOfTapsRequired="1" />
                     </StackLayout.GestureRecognizers>
-                    <Image Source="icon_youtube.png" VerticalOptions="Center" HeightRequest="50" />
+                    <Image Source="icon_youtube.png" VerticalOptions="Center" HeightRequest="30" />
                 </StackLayout>
                 <StackLayout>
                     <StackLayout.GestureRecognizers>
                         <TapGestureRecognizer Tapped="Twitter_Tapped" NumberOfTapsRequired="1" />
                     </StackLayout.GestureRecognizers>
-                    <Image Source="icon_twitter.png" VerticalOptions="Center" HeightRequest="50" />
+                    <Image Source="icon_twitter.png" VerticalOptions="Center" HeightRequest="30" />
                 </StackLayout>
                 <StackLayout>
-                    <Image Source="icon_snapshot.png" VerticalOptions="Center" HeightRequest="50" />
+                    <Image Source="icon_snapshot.png" VerticalOptions="Center" HeightRequest="30" />
                 </StackLayout>
             </StackLayout>
         </Grid>
